@@ -1,0 +1,17 @@
+/* 
+Coded by Arshdeep Singh
+Vit Vellore 
+Project software design and development
+Food ordering system
+*/
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid;
+    padding: 1%;
+}
