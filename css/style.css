@@ -9,10 +9,12 @@ Food ordering system
     padding: 0 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
 .container{
     width: 80%;
     margin: 0 auto;
-    border: 1px solid;
+    border: none;
     padding: 1%;
 }
 .button {
@@ -35,7 +37,7 @@ Food ordering system
 
   /* css navbar */
   .logo{
-      border:1px solid;
+      border:none;
       width:15%;
       float: left;
   }
@@ -88,4 +90,72 @@ Food ordering system
     border:none ;
     padding-right: 10px;
     border-radius: 10px;
+}
+
+/* css for categories */
+.categories{
+    padding: 4% 0;
+}
+.boxes{
+    border :none;
+    width : 30%;
+    float :left;
+    margin-left: 2.5%;
+}
+.float_container{
+    position: relative;
+}
+
+.float_text{
+    position:absolute;
+    left: 23%;
+    bottom: 20%;
+}
+
+.imgcurve{
+    border-radius: 20px;
+}
+
+
+
+/* foodmenu */
+.foodmenu{
+    background-color: rgba(128, 128, 128, 0.582);
+    margin: 3% 0;
+}
+.foodmenu-box{
+    border:none;
+    width: 40%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+
+}
+
+.foodmenuimg{
+    width:35%;
+    float:left;
+}
+.foodmenudesc{
+    width: 60%;
+    float: left;
+    margin-left: 3%;
+}
+.foodprice{
+    font-size: 0.8rem;
+    margin: 10px 0px;
+}
+.fooddetail{
+    font-size: 0.7rem;
+    margin:10px 0px;
+    color: rgb(175, 5, 5);
+}
+.social ul{
+    list-style: none;
+}
+.social li{
+    display: inline;
+    padding: 1%;
 }
